@@ -13,7 +13,7 @@ from playsound import playsound
 import speech_recognition as sr  
 from googletrans import Translator  
 from gtts import gTTS  
-import os
+import os 
 def func(language):
     r = sr.Recognizer()
     isl_gif=['any questions', 'are you angry', 'are you busy', 'are you hungry', 'are you sick', 'be careful',
